@@ -6,4 +6,4 @@ for line in sys.stdin:
     line = line.lower().rsplit()
     for word in line:
         # TODO: WRITE YOUR CODE HERE
-        print(word, "\t1")
+        print(word + "\t1")
